@@ -1,0 +1,7 @@
+const SUPABASE_URL = 'https://YOUR_PROJECT.supabase.co';
+const SUPABASE_ANON_KEY = 'YOUR_ANON_KEY_HERE';
+
+window.SUPABASE_CONFIG = {
+  url: SUPABASE_URL,
+  anonKey: SUPABASE_ANON_KEY
+};
